@@ -34,32 +34,40 @@ main {
 a {
     text-decoration: none;
     color:black;
+    text-decoration: underline;
 }
 
 p {
+    width: 90%;
     padding: 10px;
 }
 
 header {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    padding-top: 15px;
+    padding-bottom: 4vw;
 }
 
 #title {
-    padding-bottom: 5vw;
+    background-color: #c6c1da;
+    font-weight: 550;
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
 }
 
 #subtitle {
     max-width: 40%;
+    padding-top: 4vw;
     padding-left: 25px;
-    padding-bottom: 5vw;
+    padding-bottom: 1vw;
 }
 
 .section--head {
+    font-weight:900;
     padding-left: 10px;
+    padding-bottom: 20px;
 }
 
 
@@ -68,6 +76,7 @@ header {
     display: flex;
     justify-content: space-around;
     list-style: none; 
+    height: 30px;
     padding-top: 15px;
 }
 
@@ -103,11 +112,11 @@ thead {
     width: auto;
     height: auto;
     padding-top: 5vw;
-    padding-bottom: 5vw;
+    padding-bottom: 7vw;
 }
 
 #portrait {
-    width:60%;
+    width:50%;
     border-radius: 50%;
 }
 
@@ -121,6 +130,17 @@ thead {
     height: 4%;
 }
 
+.experience {
+    padding-left: 30px;;
+    padding-right: 50px;
+}
 
+.right--blocker {
+    padding-bottom: 3vw;
+}
+
+.left--blocker {
+    padding-bottom: 1vw;
+}
 
 
